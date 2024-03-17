@@ -1,0 +1,66 @@
+h1{
+    font:bold ;
+    text-align: center;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    background-color: #626262;
+    text-align: ;
+    border: 5px solid #000000;
+    margin: 15px;
+    padding-top: 0px; /* Зменшення відстані від верхнього краю до тексту */
+}
+.column h2,
+.column p {
+    margin-top: 10px; /* Зменшення відстані від верхнього краю до тексту */
+}
+
+.color1{
+    position: relative;
+    bottom:15px;
+    left: 460px;
+    background-color: rgb(241, 214, 218);
+    width: 130px;
+    border: 5px solid #000000;
+    
+    text-align: center;
+}
+
+.color2{
+    position: relative;
+    bottom:15px;
+    left: 459px;
+    background-color: rgb(250, 0, 0);
+    width: 130px;
+    border: 5px solid #000000;
+    text-align: center;
+}
+
+.color3{
+    position: relative;
+    bottom:15px;
+    left: 459px;
+    background-color: rgb(230, 223, 129);
+    width: 130px;
+    border: 5px solid #000000;
+    text-align: center;
+}
+
+/* Відповідна стилізація для демонстрації */
+.column {
+    background-color: #626262;
+    text-align: left;
+    border: 5px solid #000000;
+    margin: 15px;
+}
+
+
+@media (min-width:799px) and (max-width:992px){  div
+    
+}
